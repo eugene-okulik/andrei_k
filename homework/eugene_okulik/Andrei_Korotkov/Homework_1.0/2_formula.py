@@ -1,6 +1,4 @@
 
-
-    # Формула
 y = int(input())
 x = int(input())
 
