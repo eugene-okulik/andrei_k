@@ -1,0 +1,8 @@
+
+a = float(input())
+b = float(input())
+c = (a ** 2 + b ** 2) ** 0.5
+s = (a * b) / 2
+
+print('Гипотенуза =', c)
+print('Площадь треугольника =', s)
