@@ -1,7 +1,16 @@
 
-my_dict = {'tuple': (21, 55, 'AQA', 'Python', 66.6), 'list': [22, 32.4, 54, 'SQL', False],
-            'dict': {'key_1': '1', 'key_2': '6', 'key_3': '20.5', 'key_4': 'Git_hub', 'key_5': 'True'},
-             'set': {45, 67, False, 'Books', 32.5}}
+my_dict = {
+    'tuple': (21, 55, 'AQA', 'Python', 66.6),
+    'list': [22, 32.4, 54, 'SQL', False],
+    'dict':
+        {'key_1': '1',
+         'key_2': '6',
+         'key_3': '20.5',
+         'key_4': 'Git_hub',
+         'key_5': 'True'
+         },
+    'set': {45, 67, False, 'Books', 32.5}
+}
 
 print(my_dict['tuple'])
 print(my_dict['tuple'][-1])
