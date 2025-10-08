@@ -21,7 +21,7 @@ my_dict['list'].pop(1)
 print(my_dict['list'])
 
 print(my_dict['dict'])
-my_dict['dict']['i am a tuple'] = "Slovar"
+my_dict['dict'][('i am a tuple',)] = "Slovar"
 my_dict['dict'].pop('key_2')
 print(my_dict['dict'])
 
@@ -29,3 +29,4 @@ print(my_dict['set'])
 my_dict['set'].add('Testers')
 my_dict['set'].remove(32.5)
 print(my_dict['set'])
+
