@@ -17,7 +17,7 @@ print(chislo_2[-1] + 10)
 chislo_3 = ('Результат работы программы:', 5)
 print(chislo_3[-1] + 10)
 
-print('=' * 42)
+print('=' * 43)
 print('Задание: ', 3, sep='№')
 students = ['Ivanov', 'Petrov', 'Sidorov']
 # students = ', '.join(students)
@@ -27,4 +27,4 @@ subjects = ['math', 'biology', 'geography']
 # print(subjects)
 students, subjects = ', '.join(students), ', '.join(subjects)
 print('Students', students, 'study these subjects:', subjects)
-print('=' * 42)
+print('=' * 43)
