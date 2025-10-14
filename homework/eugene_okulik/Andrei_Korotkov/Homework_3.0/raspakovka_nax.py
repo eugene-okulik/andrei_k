@@ -28,4 +28,3 @@ subjects = ['math', 'biology', 'geography']
 students, subjects = ', '.join(students), ', '.join(subjects)
 print('Students', students, 'study these subjects:', subjects)
 print('=' * 42)
-
