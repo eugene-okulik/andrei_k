@@ -1,5 +1,4 @@
 
-
 print('=' * 36)
 print('Задание: ', 1, sep='№')
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
