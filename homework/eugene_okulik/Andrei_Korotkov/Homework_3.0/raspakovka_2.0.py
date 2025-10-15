@@ -8,20 +8,20 @@ print(name, last_name, city, phone, country, sep='|')
 print('=' * 36)
 print('Задание: ', 2, sep='№')
 
-chislo_1 = ('Результат работы программы:', 15)
-raspokovka_1 = f"{chislo_1[0]} {chislo_1[1]}"
-search_1 = int(raspokovka_1.split()[-1])
-print(search_1 + 10)
+chislo_1 = ('Результат работы программы: 15')
+string_index_1 = chislo_1.index(':') + 2
+srez_1 = chislo_1[string_index_1:]
+print(int(srez_1) + 10)
 
-chislo_2 = ('Результат работы программы:', 343333)
-raspokovka_2 = f"{chislo_2[0]} {chislo_2[1]}"
-search_2 = int(raspokovka_2.split()[-1])
-print(search_2 + 10)
+chislo_2 = ('Результат работы программы: 66')
+string_index_2 = chislo_2.index(':') + 2
+srez_2 = chislo_2[string_index_2:]
+print(int(srez_2) + 10)
 
-chislo_3 = ('Результат работы программы:', 545)
-raspokovka_3 = f"{chislo_3[0]} {chislo_3[1]}"
-search_3 = int(raspokovka_3.split()[-1])
-print(search_3 + 10)
+chislo_3 = ('Результат работы программы: 899')
+string_index_3 = chislo_3.index(':') + 2
+srez_3 = chislo_3[string_index_3:]
+print(int(srez_3) + 10)
 
 print('=' * 43)
 print('Задание: ', 3, sep='№')
